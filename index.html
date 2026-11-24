@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QR File Share — Privacy Policy</title>
+<style>
+:root{--bg:#060912;--card:#0e1524;--fg:#e8eaf0;--mut:#9aa1b2;--acc:#5bb4ff;--line:#1c2740}
+@media (prefers-color-scheme:light){:root{--bg:#f6f7fb;--card:#fff;--fg:#141824;--mut:#555d70;--acc:#1f6fd0;--line:#e3e6ef}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 64px}
+h1{margin:0 0 4px;font-size:28px}h2{font-size:19px;margin:30px 0 8px}p,li{color:var(--mut)}strong{color:var(--fg)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin:18px 0}
+a{color:var(--acc)}small{color:var(--mut)}
+</style>
+</head>
+<body>
+<main>
+<h1>QR File Share</h1>
+<small>Privacy Policy · Last updated 24 November 2026</small>
+
+<div class="card"><p><strong>In short:</strong> QR File Share sends your files directly from one device to another. There are no accounts, no ads and no analytics, and we run no server that stores your files. The app does not collect or sell personal data.</p></div>
+
+<h2>What the app is</h2>
+<p>QR File Share (<code>dev.nimbusbyte.qrfileshare</code>) moves a file between two devices. You scan a QR code on one device with the other to pair them, and the file is sent directly between the two devices using peer-to-peer technology (WebRTC / WebTorrent).</p>
+
+<h2>What stays on your device</h2>
+<ul>
+<li>The files you choose to send or receive. They are not uploaded to us.</li>
+<li>App settings. The app has no account and asks for no name, email or phone number.</li>
+</ul>
+
+<h2>What leaves your device, and to whom</h2>
+<ul>
+<li><strong>The file itself</strong> goes directly to the other device you paired with. It is not routed through, or stored on, any server of ours.</li>
+<li><strong>To connect the two devices</strong>, the app contacts public WebTorrent "tracker" and WebRTC signalling servers (for example <code>tracker.openwebtorrent.com</code>). These help the two devices find each other. During this, your device's network (IP) address is shared with those servers and with the device you are connecting to — this is how any direct connection works. No file content is sent to the trackers.</li>
+<li>Those third-party trackers operate under their own policies. If you do not connect to anyone, the app makes no such request.</li>
+</ul>
+
+<h2>Permissions</h2>
+<ul>
+<li><strong>Camera</strong> — only to scan the pairing QR code. No photos are taken or stored.</li>
+<li><strong>Storage / media</strong> — only to read a file you pick to send, and to save a file you receive.</li>
+<li><strong>Internet / network state</strong> — to make the direct connection between the two devices.</li>
+</ul>
+
+<h2>Data safety</h2>
+<p>The app does not collect or share personal data for analytics or advertising. It has no third-party analytics or advertising SDKs. File transfer is end-to-end between your two devices.</p>
+
+<h2>Children</h2>
+<p>The app is a general-purpose utility and is not directed at children. It knowingly collects no data from anyone.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:Av.n@aol.com">Av.n@aol.com</a></p>
+</main>
+</body>
+</html>
